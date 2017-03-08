@@ -6,33 +6,23 @@ body{
 section{
   height: 1000px;
   width: 500px;
-  background-color: red;
+  background-color: purple;
 }
 header,footer{
-  margin:0;
+  height: 10%;
   width: 460px;
-  height:10%;
   border: 20px dotted white;
   background-color: black;
 }
 article{
   height: 800px;
   width:auto;
-  background-color: maroon;
-}
-picture{
-  height: auto;
-  width: 500px;
-}
-.picture img{
-  width: inherit;
 }
 
 .thing{
   width:auto;
   height:inherit;
   background-color: blue;
-  border: 5px black;
   float: left;
 }
 .left{
@@ -41,4 +31,8 @@ picture{
 .right{
   width: 33%;
   background-color:green;
+}
+picture{
+  height: auto;
+  width:500px;
 }
